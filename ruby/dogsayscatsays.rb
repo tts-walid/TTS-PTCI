@@ -1,0 +1,21 @@
+puts "Enter an animal, please"
+animal = gets.chomp
+if animal.downcase == "dog"
+  puts "woof"
+elsif animal.downcase == "cat"
+  puts "meow"
+elsif animal.downcase == "lion"
+  puts "roar"
+elsif animal.downcase == "horse"
+  puts "neigh"
+elsif animal.downcase == "monkey"
+  puts "ooh ooh ah ah"
+elsif animal.downcase == "bird"
+  puts "tweet"
+elsif animal.downcase == "mouse"
+  puts "squeak"
+elsif animal.downcase == "bear"
+  puts "raaar"
+else
+  puts "I'm not sure what sound a #{animal} makes"
+end
